@@ -8,9 +8,67 @@
 }
 #FAQs{
 	background-color: black;
+	color: blue;
+	text-align: center;
+	font-size: 18px;
+
 }
 .content{
 	text-align: left;
-	font-size: 20px;
+	font-size: 17px;
 	padding-left: 25px;
+	color: white;
+
+}
+#row{
+	height: 700px;
+}
+#FAQ{
+	font-weight: bold;
+}
+#venue_header{
+	text-align: center;
+	font-size: 20px;
+	color: blue;
+	font-weight: bold;
+}
+#venue_content{
+	font-size: 17px;
+	text-align: left;
+	padding-right: 50px
+}
+#Venue{
+	margin-left: 70px;
+	margin-right: 70px;		
+}
+#venue_image{
+	height: 300px;
+	width: 100%;
+}
+#venue_marker_content{
+	text-align: left;
+	font-size: 17px;
+	padding-top: 4px;
+}
+#map_marker{
+	font-size:38px;
+	color:blue;
+}
+#envelope{
+	font-size:38px;
+	color:blue;	
+}
+#phone{
+	font-size:38px;
+	color:blue;		
+}
+#venue_marker_content_2{
+	text-align: left;
+	font-size: 20px;
+	padding-top: 20px;
+}
+#venue_marker_content_3{
+	text-align: left;
+	font-size: 20px;
+	padding-top: 10px;
 }
