@@ -1,74 +1,93 @@
-.body{
-	background-color: black;
+.body {
+    background-color: black;
 }
-.question{
-	color: blue;
-	text-align: left;
-	font-size: 20px;
-}
-#FAQs{
-	background-color: black;
-	color: blue;
-	text-align: center;
-	font-size: 18px;
 
+#whattoexpect {
+    background-color: #fafafa;
+    height: auto;
+    width: 100%;
 }
-.content{
-	text-align: left;
-	font-size: 17px;
-	padding-left: 25px;
-	color: white;
 
+.question {
+    color: blue;
+    text-align: left;
+    font-size: 20px;
 }
-#row{
-	height: 700px;
+
+#FAQs {
+    background-color: black;
+    color: blue;
+    text-align: center;
+    font-size: 18px;
 }
-#FAQ{
-	font-weight: bold;
+
+.content {
+    text-align: left;
+    font-size: 17px;
+    padding-left: 25px;
+    color: white;
 }
-#venue_header{
-	text-align: center;
-	font-size: 20px;
-	color: blue;
-	font-weight: bold;
+
+#row {
+    height: 700px;
 }
-#venue_content{
-	font-size: 17px;
-	text-align: left;
-	padding-right: 50px
+
+#FAQ {
+    font-weight: bold;
 }
-#Venue{
-	margin-left: 70px;
-	margin-right: 70px;		
+
+#venue_header {
+    text-align: center;
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
 }
-#venue_image{
-	height: 300px;
-	width: 100%;
+
+#venue_content {
+    font-size: 17px;
+    text-align: left;
+    padding-right: 50px
 }
-#venue_marker_content{
-	text-align: left;
-	font-size: 17px;
-	padding-top: 4px;
+
+#Venue {
+    margin-left: 70px;
+    margin-right: 70px;
 }
-#map_marker{
-	font-size:38px;
-	color:blue;
+
+#venue_image {
+    height: 300px;
+    width: 100%;
 }
-#envelope{
-	font-size:38px;
-	color:blue;	
+
+#venue_marker_content {
+    text-align: left;
+    font-size: 17px;
+    padding-top: 4px;
 }
-#phone{
-	font-size:38px;
-	color:blue;		
+
+#map_marker {
+    font-size: 38px;
+    color: blue;
 }
-#venue_marker_content_2{
-	text-align: left;
-	font-size: 20px;
-	padding-top: 20px;
+
+#envelope {
+    font-size: 38px;
+    color: blue;
 }
-#venue_marker_content_3{
-	text-align: left;
-	font-size: 20px;
-	padding-top: 10px;
+
+#phone {
+    font-size: 38px;
+    color: blue;
+}
+
+#venue_marker_content_2 {
+    text-align: left;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+#venue_marker_content_3 {
+    text-align: left;
+    font-size: 20px;
+    padding-top: 10px;
 }

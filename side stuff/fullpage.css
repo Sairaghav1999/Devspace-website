@@ -1,0 +1,38 @@
+h1 {
+    font-size: 5em;
+    font-family: arial, helvetica;
+    color: rgb(17, 0, 255);
+    margin: 0;
+    padding: 0;
+}
+
+.intro p {
+    color: #000000
+}
+
+.section {
+    text-align: center;
+}
+
+#header,
+#footer {
+    position: fixed;
+    height: 50px;
+    display: block;
+    width: 100%;
+    background: #333333;
+    z-index: 9;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 20px 0 0 0;
+}
+
+#header {
+    top: 0px;
+}
+
+#footer {
+    bottom: 0px;
+}
+
+.heads {}
