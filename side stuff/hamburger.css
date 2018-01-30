@@ -10,16 +10,17 @@ body {
 .navigation {
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 100;
     top: 0;
     left: 0;
     box-shadow: 0 4px 4px -3px #232323;
     -moz-box-shadow: 0 4px 4px -3px #232323;
     float: right;
     -webkit-box-shadow: 0 4px 4px -3px #232323;
-    overflow: hidden;
+    overflow: none;
     transition: all 0.4s ease-in-out;
     padding-top: 0px;
+    background-color: rgb(255, 0, 0);
 }
 
 .navigation a {
@@ -38,8 +39,8 @@ body {
 .menulist {
     width:180px;
     height: 100%;
-    padding-top: 150px;
-    height: 500px;
+    padding-top: 100px;
+    height: 100%;
 }
 
 .line1, .line2, .line3 {
@@ -55,7 +56,7 @@ body {
   transition: all .3s;
 }
 
-.line1.active {
+/* .line1.active {
   background-color:black;
   visibility: hidden;
 }
@@ -68,7 +69,7 @@ body {
 .line3.active {
   background-color:black;
   visibility: hidden;
-}
+} */
 
 .menuitems {
     padding-top:12px;
@@ -79,7 +80,7 @@ body {
     font-weight: 300;
     font-size: 14px;
     display: inline-block;
-    position:relative;  
+    position: relative;  
     text-align:center;
     color: white;
     opacity:0.0;
@@ -92,7 +93,7 @@ body {
   width: 0;
   height: 1px;
   color: white;
-  background: #fff;
+  background: rgb(0, 0, 0);
   transition: width .2s;
 }
 
@@ -110,13 +111,18 @@ body {
     font-size: 36px !important;
     margin-right: 50px;
     z-index:100;
-    color: rgb(255, 249, 249); 
+    color: rgb(0, 0, 0); 
     cursor:pointer;
-    trainsition:background-position .3s;
+    transition:background-position .3s;
 }
 #closebtn:after{
   height: 50px;
 }
- #topNav{
-     all: inherit;
- }
+<!--
+#header{
+    transition:margin-top .4s;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    padding: 16px;
+}

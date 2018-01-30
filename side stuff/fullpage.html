@@ -16,7 +16,7 @@
     <script src="http:\ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="../fullPage.js-master/vendors/scrolloverflow.js"></script>
     <script type="text/javascript" src="../fullPage.js-master/jquery.fullPage.js"></script>
-    <script type="text/javascript" scr="hamburger.js"></script>
+    <script type="text/javascript" src="hamburger.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
             $('#fullpage').fullpage({
@@ -24,6 +24,7 @@
                 sectionsColor: ['#ABACE5', '#113515', '#7E8F7C', '#A5D6E1', '#AAAAAB', '#332A15', '#54ad55'],
                 css3: true
             });
+            $('menu').
         });
     </script>
 </head>
@@ -31,24 +32,28 @@
 <div id="header" class="heads">
     <nav>
     <div id="topNav" class="navigation">
-    <span id="closebtn" onclick="navToggle()">
+    <span id="closebtn" onclick="navToggle()">  
         <span class="line1"></span>
         <span class="line2"></span>
         <span class="line3"></span>
         </span>
-  
+    </div>
+    <div id="menu">
     <ul class="menulist">
-      <li><a class="menuitems" href="#">ABOUT</a></li>
-      <li><a class="menuitems" href="#">CASE STUDIES</a></li>
-      <li><a class="menuitems" href="#">CONTACT</a></li>
-      <li><a class="menuitems" href="#">RESUME</a></li>
+      <li><a class="menuitems" href="#">Home</a></li>
+      <li><a class="menuitems" href="#">What to Expect</a></li>
+      <li><a class="menuitems" href="#">Register</a></li>
+      <li><a class="menuitems" href="#">Speakers</a></li>
+      <li><a class="menuitems" href="#">Contact us</a></li>
+      <li><a class="menuitems" href="#">Venue and Info</a></li>
+      <li><a class="menuitems" href="#">FAQ</a></li>
     </ul>
-  </div>
+    </div>
   </nav>
-</div>
-<div id="fullpage">
-    <div class="section " id="section0">
-        <div class="intro">
+</div>  
+<div id="fullpage container-fliud">
+    <div class="section row" id="section0">
+        <div class="intro col-md-12">
             <h1>Devspace</h1>
             <p>A Technical Hackathon</p>
         </div>
