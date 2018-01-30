@@ -11,27 +11,41 @@
     <title>Fullpage Scroll</title>
     <link rel="stylesheet" type="text/css" href="fullpage.css">
     <link rel="stylesheet" type="text/css" href="../fullPage.js-master/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="hamburger.css">
     <script src="http:\ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="http:\ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="../fullPage.js-master/vendors/scrolloverflow.js"></script>
     <script type="text/javascript" src="../fullPage.js-master/jquery.fullPage.js"></script>
-
+    <script type="text/javascript" scr="hamburger.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
             $('#fullpage').fullpage({
-                anchors: ['firstpage', 'secondpage', 'thirdpage'],
-                sectionsColor: ['#ABACE5', '#113515', '#7E8F7C'],
+                anchors: ['Devspace', 'whattoexpect', 'Schedule', 'Speaker', 'Codespace','Sponsors', 'Contact Us'],
+                sectionsColor: ['#ABACE5', '#113515', '#7E8F7C', '#A5D6E1', '#AAAAAB', '#332A15', '#54ad55'],
                 css3: true
             });
         });
     </script>
 </head>
-
-<!-- <div id="header" class="heads">
-    <div style="text-align:left ">Devspace</div>
-    <div style="text-align:right ">Hamburgerlogo</div>
-</div> -->
-
+<body>
+<div id="header" class="heads">
+    <nav>
+    <div id="topNav" class="navigation">
+    <span id="closebtn" onclick="navToggle()">
+        <span class="line1"></span>
+        <span class="line2"></span>
+        <span class="line3"></span>
+        </span>
+  
+    <ul class="menulist">
+      <li><a class="menuitems" href="#">ABOUT</a></li>
+      <li><a class="menuitems" href="#">CASE STUDIES</a></li>
+      <li><a class="menuitems" href="#">CONTACT</a></li>
+      <li><a class="menuitems" href="#">RESUME</a></li>
+    </ul>
+  </div>
+  </nav>
+</div>
 <div id="fullpage">
     <div class="section " id="section0">
         <div class="intro">
@@ -39,13 +53,16 @@
             <p>A Technical Hackathon</p>
         </div>
     </div>
-    <div class="section" id="section1">
+    <div class="section " id="section1">
+        <div class="intro">
+            <h1>What to expect</h1>
+        </div>
+    </div>
+    <div class="section" id="section2">
         <div class="slide" id="slide1">
             <div class="intro">
                 <h1>Schedule</h1>
-                <p>
-                    DAY 1
-                </p>
+                <h1>Day 1</h1>
             </div>
         </div>
 
@@ -55,6 +72,38 @@
 
         <div class="slide" id="slide3">
             <h1>DAY 3</h1>
+        </div>
+    </div>
+    <div class="section " id="section3">
+        <div class="intro">
+            <h1>Our Speakers</h1>
+        </div>
+    </div>
+    <div class="section" id="section4">
+        <div class="slide" id="slide1">
+            <div class="intro">
+                <h1>CODESPACE</h1>
+            </div>
+        </div>
+        <div class="slide" id="slide2">
+            <h1>Track 1</h1>
+        </div>
+        <div class="slide" id="slide4">
+            <h1>Track 2</h1>
+        </div>
+        <div class="slide" id="slide5">
+            <h1>Track 3</h1>
+        </div>
+        <div class="slide" id="slide6">
+            <h1>Track 4</h1>
+        </div>
+        <div class="slide" id="slide7">
+            <h1>Previous year</h1>
+        </div>
+    </div>
+    <div class="section " id="section1">
+        <div class="intro">
+            <h1>Our Sponsors</h1>
         </div>
     </div>
     <div class="section" id="section2">

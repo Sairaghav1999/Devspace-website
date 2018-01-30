@@ -6,7 +6,8 @@ var close = document.getElementById("closebtn");
 //default to measure if/else from
 nav.style.height = "50px";
 main.style.marginTop = "50px";
-for (i = 0; i < menu.length; i++){menu[i].style.marginTop="100px";};
+for (i = 0; i < menu.length; i++)
+{menu[i].style.marginTop="100px";};
 
 close.addEventListener("click", function(){
   var menuIcon = close.children;
@@ -40,6 +41,6 @@ function navToggle() {
 	};
     	document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 	
-	}
+	}	
 
 };

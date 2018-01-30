@@ -14,8 +14,7 @@ h1 {
     text-align: center;
 }
 
-#header,
-#footer {
+#footer, #header {
     position: fixed;
     height: 50px;
     display: block;
@@ -27,12 +26,15 @@ h1 {
     padding: 20px 0 0 0;
 }
 
+
 #header {
-    top: 0px;
+    top: 0px;              
 }
 
 #footer {
     bottom: 0px;
 }
 
-.heads {}
+.heads{
+    
+}

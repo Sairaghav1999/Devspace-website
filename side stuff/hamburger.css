@@ -13,7 +13,6 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #000;
     box-shadow: 0 4px 4px -3px #232323;
     -moz-box-shadow: 0 4px 4px -3px #232323;
     float: right;
@@ -41,13 +40,6 @@ body {
     height: 100%;
     padding-top: 150px;
     height: 500px;
-}
-
-
-.logo {
-    text-align: right;
-    margin:0 auto;
-    float: right;
 }
 
 .line1, .line2, .line3 {
@@ -118,19 +110,13 @@ body {
     font-size: 36px !important;
     margin-right: 50px;
     z-index:100;
-    color: black; 
+    color: rgb(255, 249, 249); 
     cursor:pointer;
     trainsition:background-position .3s;
 }
 #closebtn:after{
   height: 50px;
 }
-
-#main { 
-    transition: margin-top .4s;
-    text-align:center;
-    margin:auto;
-    background-color: black;
-    padding: 16px;
-    font-size:30px;
-}
+ #topNav{
+     all: inherit;
+ }
