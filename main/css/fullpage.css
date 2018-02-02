@@ -1,0 +1,223 @@
+h1 {
+    font-size: 5em;
+    font-family: arial, helvetica;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+.section{
+    text-align: center;
+    
+}
+
+#footer, #header {
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    display: block;
+    background: #333333;
+    z-index: 9;
+    box-sizing: border-box;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 0 0     0 0;
+}
+
+#header {
+    top: 0px;  
+    background: linear-gradient(to top, rgba(255,0,0,0), rgb(0, 0, 0)50%);!important      
+}
+
+#footer {
+    bottom: 0px;
+}
+.container-fluid{
+    padding-left: 0px !important;
+    padding-right: 0px !important; 
+}
+
+.row{
+    padding-right: 20px;
+}
+/*Navbar*/
+.navDrop{
+    text-align: right;
+    margin-right: 20px;
+    padding-right: 20px;
+
+}
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 12; 
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9); 
+    overflow-x: hidden; 
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 15%; 
+    width: 100%; 
+    text-align: center; 
+    margin-top: 25px; 
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block; 
+    transition: 0.3s; 
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 400px) {
+    .overlay a {font-size: 10px}
+    .overlay .closebtn {
+        font-size: 20px;
+        top: 15%;
+        right: 35px;
+    }
+} 
+/*nav text*/
+.navheads{
+    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.navheads li{
+    float: right;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 35px;
+}
+
+#mainpagekaland{
+    padding-right: 15%;
+    padding-top: 20%; 
+}
+
+.navbar-brand{
+    margin-right: 0 !important;
+}
+
+.brand-img {
+	height: auto;
+	margin-top: 40vh;	
+}
+
+.p-2-line-1 {
+	top: 20%;
+	color: white;
+}
+.p-2-line-2 {
+	top: 22%;
+	color: white;
+}
+.p-2-line-3 {
+	top: 24%;
+	color: white;
+}
+/*backgrounds*/
+.section{
+    background-size: cover;
+}
+.slide{
+    background-size: cover;
+}
+#section0{
+    background-color: #01030e !important;
+}
+#section1{
+    padding-top: 5%;
+    background-image: url(../assets/main-Page-Background.jpg) !important;
+    color: #fafafa;
+}
+#section2{
+    padding-top: 5%;
+    background-image: url(../assets/main-Page-Background.jpg) !important;
+    color: #fafafa;
+}
+#section3{
+    padding-top: 5%;
+    background-image: url(../assets/codespace_main_bg.png) !important;
+    color: #fafafa;
+}
+#section4{
+    padding-top: 5%;
+    background-image: url(../assets/main-Page-Background.jpg) !important;
+    color: #fafafa;
+}
+#section5{
+    padding-top: 5%;
+    background-image: url(../assets/main-Page-Background.jpg) !important;
+    color: #fafafa;
+}
+/* SPEAKERS */
+.lmao {
+  background-color: none;
+  padding: 2% 2% 2% 2%;
+}
+.lmao1 { 
+  background-color: none;
+  padding: 2% 2% 2% 2%;
+}
+
+.ourspeakers{
+    top: 15%;
+    font-size: 2em
+}
+
+/*Codespace*/
+.codelogo{
+    margin-top: 11em;
+}
+.codecontent{
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+    text-align: justify !important;
+}
+
+.codedates{
+    font-size: 30px !important;
+}
+
+.coderegister{
+    margin-top: 1em !important;
+    color: #fafafa !important;
+}
+
+.codefooter{
+    width: 80; 
+    height: 0; 
+    margin-bottom: 0px;
+    border-bottom: 100px solid #0094ff; 
+    border-left: 1000px solid transparent;
+    z-index: 1000;
+    float: right; 
+    opacity: 0.5;
+}
+/* faq */
+.faq{
+    top: 15%;
+    margin-bottom: 10px !important;
+    font-size: 2em
+}

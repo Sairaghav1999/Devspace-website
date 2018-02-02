@@ -10,7 +10,7 @@ h1 {
     color: #000000
 }
 
-.section {
+.section{
     text-align: center;
 }
 
@@ -39,7 +39,15 @@ h1 {
 #footer {
     bottom: 0px;
 }
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
 
+.row{
+    padding-right: 20px;
+}
 #topnav{
     all: inherit;
+    height: 50px;
 }

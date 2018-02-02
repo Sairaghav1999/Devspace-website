@@ -51,10 +51,13 @@ console.log(screenHeight);
 function navToggle(){
 	console.log("asdasd");
 	var navigation=document.getElementById("menu");
-	console.log(navigation);
+	var screenHeight=window.innerHeight;
+	var screenWidth=window.innerWidth;
+	console.log(screenHeight);
+	console.log(screenWidth);
 	if(navigation.style.visibility=="hidden"){
 		console.log("1");
-		navigation.style.height= window.innerHeight;
+		navigation.style.height= screnheight+"px";
 		console.log(navigation.style.height);
 		navigation.style.width= window.innerWidth;
 		console.log(navigation.style.width);

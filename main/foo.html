@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+</html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Devspace</title>
+	<script src="http:\ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http:\ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	  crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	  crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	  crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="../fullPage.js-master/vendors/scrolloverflow.js"></script>
+	<script type="text/javascript" src="../fullPage.js-master/jquery.fullPage.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/fullpage.css">
+	<link rel="stylesheet" type="text/css" href="../fullPage.js-master/jquery.fullPage.css" />
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#fullpage').fullpage({
+				anchors: ['Devspace', 'whattoexpect', 'Schedule', 'Speaker', 'Codespace', 'Sponsors', 'Contact Us'],
+				sectionsColor: ['#01030e', '#113515', '#7E8F7C', '#A5D6E1', '#AAAAAB', '#332A15', '#54ad55'],
+				css3: true
+			});
+		});
+	</script>
+</head>
+
+<body>
+
+	<div id="header" class="heads">
+		<nav>
+			<div id="myNav" class="overlay">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<div class="overlay-content">
+					<a href="#">Home</a>
+					<a href="#">What to Expect</a>
+					<a href="#">Register</a>
+					<a href="#">Speakers</a>
+					<a href="#">Codespace</a>
+					<a href="#">Venue and Info</a>
+					<a href="#">Contact</a>
+				</div>
+			</div>
+			<div class="navDrop" style="cursor:pointer" onclick="openNav()">
+				<img src="assets/hamburgerx48.png" alt="Menu" align="right" class="navbar-brand">
+				<img src="https://devspace.tech/images/oldlogo-white.png" alt="Devspace" align="left" height="18%" width="18%" class="navbar-brand">
+			</div>
+		</nav>
+	</div>
+	<div id="fullpage">
+        <div class="section">
+            <div class="h-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>HELLO!</h1>                  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="h-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 offset-md-3 col-md-6">
+                            <h1>HELLO!</h1>                  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section2">
+            <div class="slide" id="slide1">
+                <div class="h-100">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 offset-md-3 col-md-6">
+                                <h1>HELLO!</h1>                  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" id="slide2">
+                <div class="h-100">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 offset-md-3 col-md-6">
+                                <h1>HELLO!</h1>                  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>
+	<script>
+		function openNav() {
+			document.getElementById("myNav").style.height = "100%";
+			document.getElementsByClassName("navDrop")[0].style.visibility = "hidden";
+			console.log(open);
+		}
+		function closeNav() {
+			document.getElementById("myNav").style.height = "0%";
+			document.getElementsByClassName("navDrop")[0].style.visibility = "visible";
+			console.log(Close);
+		}
+	</script>
+</body>
+
+</html>
