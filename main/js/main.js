@@ -64,19 +64,19 @@ function closeNav() {
 //     setTimeout(showSlides, 2000); // Change image every 2 seconds
 // }
 
-var modal = document.getElementById('myModal');
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('speakericon');
-var modalImg = document.getElementById("speakerbig");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
+//speakers
+// var modal = document.getElementById('myModal');
+// var img = document.getElementById('speakericon');
+// var modalImg = document.getElementById("speakerbig");
+// img.onclick = function(){
+//     modal.style.display = "block";
+//     modalImg.src = this.src;
+//     captionText.innerHTML = this.alt;
+// }
 
-var span = document.getElementsByClassName("close")[0];
+// var span = document.getElementsByClassName("close")[0];
 
-span.onclick = function() { 
-    modal.style.display = "none";
-}
+// span.onclick = function() { 
+//     modal.style.display = "none";
+// }

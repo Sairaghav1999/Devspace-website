@@ -1,43 +1,40 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 </html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Devspace</title>
+	<title>Devspace 2</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="../fullPage.js-master/jquery.fullPage.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+		crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 	<script src="http:\ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="http:\ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-	  crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-	  crossorigin="anonymous"></script>
+	    crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-	  crossorigin="anonymous"></script>
+	    crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-	  crossorigin="anonymous"></script>
+	    crossorigin="anonymous"></script>
 	<script type="text/javascript" src="../fullPage.js-master/vendors/scrolloverflow.js"></script>
 	<script type="text/javascript" src="../fullPage.js-master/jquery.fullPage.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/fullpage.css">
-	<link rel="stylesheet" type="text/css" href="../fullPage.js-master/jquery.fullPage.css" />
+	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function () {
 			$('#fullpage').fullpage({
-				anchors: ['Devspace', 'whattoexpect', 'Schedule', 'Speaker', 'Codespace', 'Sponsors', 'Contact Us'],
-				sectionsColor: ['#01030e', '#113515', '#7E8F7C', '#A5D6E1', '#AAAAAB', '#332A15', '#54ad55'],
-				css3: true
+				css3: true,
 			});
 		});
 	</script>
 </head>
 
-<body>
-
-	<div id="header" class="heads">
-		<nav>
+<body id="body">
+	<div id="header">
+		<nav class="navspace">
 			<div id="myNav" class="overlay">
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 				<div class="overlay-content">
@@ -53,69 +50,244 @@
 			<div class="navDrop" style="cursor:pointer" onclick="openNav()">
 				<img src="assets/hamburgerx48.png" alt="Menu" align="right" class="navbar-brand">
 				<img src="https://devspace.tech/images/oldlogo-white.png" alt="Devspace" align="left" height="18%" width="18%" class="navbar-brand">
+				<ul class="navheads">
+					<li>
+						<a href="#">Register</a>
+					</li>
+					<li>
+						<a href="#">Codespace</a>
+					</li>
+					<li>
+						<a href="#">Speakers</a>
+					</li>
+				</ul>
 			</div>
 		</nav>
 	</div>
 	<div id="fullpage">
-        <div class="section">
-            <div class="h-100">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h1>HELLO!</h1>                  
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="h-100">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 offset-md-3 col-md-6">
-                            <h1>HELLO!</h1>                  
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section" id="section2">
-            <div class="slide" id="slide1">
-                <div class="h-100">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 offset-md-3 col-md-6">
-                                <h1>HELLO!</h1>                  
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="slide" id="slide2">
-                <div class="h-100">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 offset-md-3 col-md-6">
-                                <h1>HELLO!</h1>                  
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+		<!-- <div class="section" id="section0">
+			<div class="h-100">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="col-md-6 offset-md-3 text-center">
+								<img src="assets/devspace-landing.png" alt="Devspace" class="brand-img row col-md-12">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<div class="section" id="section1" onload="showSlides()">
+			<div class="h-100">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12 text-center line1">
+								Tech enthusiasts
+						</div>
+						<div class="col-md-12 text-center line2">
+								here we area
+						</div>
+						<div class="col-md-12 text-center line3">
+								16<sup>th</sup> to 18<sup>th</sup> March, VIT Vellore 
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<button type="button" class="btn btn-outline-dark btn-lg coderegister">Register</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="section2">
+			<div class="h-100">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="offset-md-4 col-md-4 ourspeakers text-center">
+							Our Speakers
+						</div>
+					</div>
+					<!-- top row contents -->
+					<div class="row">
+						<div class="col-md-3 col-sm-6 col-xs-12 lmao">
+							<img id="speakericon" src="assets/sessions.png" alt"speakername" class="img-thumbnail">
+							<div id="myModal" class="modal">
+								<span class="close">&times;</span>
+								<img class="modal-content" id="speakerbig">
+								<div id="caption"></div>
+							  </div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12 lmao">
+							<img src="assets/sessions.png" class="img-thumbnail">
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12 lmao">
+							<img src="assets/sessions.png" class="img-thumbnail">
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12 lmao">
+							<img src="assets/sessions.png" class="img-thumbnail">
+						</div>
+					</div>
+					<div class="row">
+						<!-- bottom row contents  -->
+						<div class="col-md-3 col-sm-6 col-xs-12 lmao">
+							<img src="assets/sessions.png" class="img-thumbnail">
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12 lmao">
+							<img src="assets/sessions.png" class="img-thumbnail">
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12 lmao">
+							<img src="assets/sessions.png" class="img-thumbnail">
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12 lmao">
+							<img src="assets/sessions.png" class="img-thumbnail">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="section3">
+			<div class="h-100">
+				<div class="container-fluid" style="height:inherit">
+					<div class="row">
+						<div class="offset-md-1 col-md-5">
+							<img src="assets/Codespace_logo.png" class="codelogo img-fluid" alt="Codespace">
+						</div>
+					</div>
+					<div class="row">
+						<div class="offset-md-1 col-md-5 codecontent">
+							A national level hackathon aimed at bringing together India's most fastforward thinkers, innovators and implemtentors for
+							the progress of technology and literacy. 24 hours deidicated to drive our nation further into digital revolution.
+						</div>
+					</div>
+					<div class="row text-center">
+						<div class="offset-md-1 col-md-5 codedates">
+							17
+							<sup>th</sup> - 18
+							<sup>th</sup> March
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3 offset-md-2 text-center">
+							<button type="button" class="btn btn-outline-dark btn-lg coderegister">Register</button>
+						</div>
+					</div>
+					<div class="codefooter">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="section4">
+			<div class="h-100">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<h1>Register</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="section5">
+			<div class="h-100">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="offset-md-4 col-md-4 faq text-center">
+							Frequently Asked Questions
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div id="accordion">
+								<div class="card" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									<div class="card-header" id="headingOne">
+										<h5 class="mb-0">
+											<button class="btn btn-link">
+												Collapsible Group Item #1
+											</button>
+										</h5>
+									</div>
+									<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+										<div class="card-body">
+											Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+											non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+											sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+											craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+											occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+											labore sustainable VHS.
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header" id="headingTwo">
+										<h5 class="mb-0">
+											<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+												Collapsible Group Item #2
+											</button>
+										</h5>
+									</div>
+									<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+										<div class="card-body">
+											Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+											non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+											sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+											craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+											occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+											labore sustainable VHS.
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header" id="headingThree">
+										<h5 class="mb-0">
+											<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+												Collapsible Group Item #3
+											</button>
+										</h5>
+									</div>
+									<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+										<div class="card-body">
+											Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+											non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+											sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+											craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+											occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+											labore sustainable VHS.
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="section6">
+			<div class="h-100">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-6 col-sm-12 col-xs-12">
+							<iframe id="map" src="https://snazzymaps.com/embed/45582"></iframe>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12">
+							<div class="row">
+								<div class="col-md-12">
+									<h2>HAVE A DOUBT?</h2> 
+								</div>
+								<div class="col-md-12">
+									<form action="/action_page.php">
+										<input type="text" id="name" name="name" placeholder="Name">
+										<input type="email" id="email" name="email" placeholder="Email">
+										<textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+										<button type="button" class="btn btn-outline-dark btn-lg coderegister">Register</button>s
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-	<script>
-		function openNav() {
-			document.getElementById("myNav").style.height = "100%";
-			document.getElementsByClassName("navDrop")[0].style.visibility = "hidden";
-			console.log(open);
-		}
-		function closeNav() {
-			document.getElementById("myNav").style.height = "0%";
-			document.getElementsByClassName("navDrop")[0].style.visibility = "visible";
-			console.log(Close);
-		}
-	</script>
 </body>
-
 </html>

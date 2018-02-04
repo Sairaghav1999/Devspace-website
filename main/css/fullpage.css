@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
 }
-
 h1 {
     font-size: 5em;
     font-family: arial, helvetica;
@@ -12,7 +11,6 @@ h1 {
 
 .section{
     text-align: center;
-    
 }
 
 #footer, #header {
@@ -30,20 +28,13 @@ h1 {
 
 #header {
     top: 0px;  
-    background: linear-gradient(to top, rgba(255,0,0,0), rgb(0, 0, 0)50%);!important      
-}
-
-#footer {
-    bottom: 0px;
-}
-.container-fluid{
-    padding-left: 0px !important;
-    padding-right: 0px !important; 
+    background: linear-gradient(to top, rgba(255,0,0,0), rgb(0, 0, 0)50%)!important;      
 }
 
 .row{
     padding-right: 20px;
 }
+
 /*Navbar*/
 .navDrop{
     text-align: right;
@@ -128,6 +119,13 @@ ul.navheads li{
 	margin-top: 40vh;	
 }
 
+@media (width:700px){
+    .navheads li{
+        visibility: hidden;
+        display: none;
+    }
+}
+
 /*backgrounds*/
 .section{
     background-size: cover;
@@ -136,7 +134,7 @@ ul.navheads li{
     background-size: cover;
 }
 #section0{
-    background-color: #01030e !important;
+    background-color: #000000 !important;
 }
 #section1{
     padding-top:10vh;
@@ -163,6 +161,12 @@ ul.navheads li{
     background-image: url(../assets/main-Page-Background.jpg) !important;
     color: #fafafa;
 }
+#section6{
+    padding-top: 15vh;
+    background-image: url(../assets/main-Page-Background.jpg) !important;
+    color: #fafafa;
+}
+
 /* landing */
 .mySlides {display: none;}
 img {vertical-align: middle;}
@@ -349,4 +353,59 @@ img {vertical-align: middle;}
     color: #fafafa;
     background-color: #01030e !important;
     opacity: 0.7;
+}
+
+/*contact us*/
+input[type=text],input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid white;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: transparent;
+    border: 1px solid #0094ff;          
+}
+#section6 textarea{
+    height: 25vh;
+}
+
+#map{
+    width:100%;
+    height: 80vh;
+}
+
+/* Style the container/contact section */
+#section6 .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+#section6 .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+#section6 .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    #section6 .column, #section6 input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+    #map{
+        height: 35vh;
+    }
+    #section6 textarea{
+        height: 10vh;
+    }
 }
