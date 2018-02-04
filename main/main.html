@@ -79,12 +79,39 @@
 				</div>
 			</div>
 		</div>
-		<div class="section" id="section1">
+		<div class="section" id="section1" onload="showSlides()">
 			<div class="h-100 page-2">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-12">
-							<h1>Enter owl carrousel here!</h1>
+							<div class="slideshow-container">
+								<div class="mySlides fade">
+								  <div class="numbertext">1 / 3</div>
+								  <img src="assets/devspace-landing.png" style="width:100%">
+								  <div class="text">Caption Text</div>
+								</div>
+								<div class="mySlides fade">
+								  <div class="numbertext">2 / 3</div>
+								  <img src="assets/devspace-landing.png" style="width:100%">
+								  <div class="text">Caption Two</div>
+								</div>
+								<div class="mySlides fade">
+								  <div class="numbertext">3 / 3</div>
+								  <img src="assets/devspace-landing.png" style="width:100%">
+								  <div class="text">Caption Three</div>
+								</div>
+								</div>
+								<br>
+								<div style="text-align:center">
+								  <span class="dot"></span> 
+								  <span class="dot"></span> 
+								  <span class="dot"></span> 
+							</div>								
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<button type="button" class="btn btn-outline-dark btn-lg coderegister">Register</button>
 						</div>
 					</div>
 				</div>
@@ -101,27 +128,32 @@
 					<!-- top row contents -->
 					<div class="row">
 						<div class="col-md-3 col-sm-6 col-xs-12 lmao">
-							<img src="assets/sessions.png" class="img-thumbnail">
+							<img id="speakericon" src="assets/sessions.png" alt"speakername" class="img-thumbnail">
+							<div id="myModal" class="modal">
+								<span class="close">&times;</span>
+								<img class="modal-content" id="speakerbig">
+								<div id="caption"></div>
+							  </div>
 						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 lmao1">
+						<div class="col-md-3 col-sm-6 col-xs-12 lmao">
 							<img src="assets/sessions.png" class="img-thumbnail">
 						</div>
 						<div class="col-md-3 col-sm-6 col-xs-12 lmao">
 							<img src="assets/sessions.png" class="img-thumbnail">
 						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 lmao1">
+						<div class="col-md-3 col-sm-6 col-xs-12 lmao">
 							<img src="assets/sessions.png" class="img-thumbnail">
 						</div>
 					</div>
 					<div class="row">
 						<!-- bottom row contents  -->
-						<div class="col-md-3 col-sm-6 col-xs-12 lmao1">
+						<div class="col-md-3 col-sm-6 col-xs-12 lmao">
 							<img src="assets/sessions.png" class="img-thumbnail">
 						</div>
 						<div class="col-md-3 col-sm-6 col-xs-12 lmao">
 							<img src="assets/sessions.png" class="img-thumbnail">
 						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 lmao1">
+						<div class="col-md-3 col-sm-6 col-xs-12 lmao">
 							<img src="assets/sessions.png" class="img-thumbnail">
 						</div>
 						<div class="col-md-3 col-sm-6 col-xs-12 lmao">
